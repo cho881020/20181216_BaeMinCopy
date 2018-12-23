@@ -5,11 +5,21 @@ public class Restaurant {
     private String name;
     private String address;
     private String openTime;
+    private String logoURL;
 
-    public Restaurant(String name, String address, String openTime) {
+    public Restaurant(String name, String address, String openTime, String logoURL) {
         this.name = name;
         this.address = address;
         this.openTime = openTime;
+        this.logoURL = logoURL;
+    }
+
+    public String getLogoURL() {
+        return logoURL;
+    }
+
+    public void setLogoURL(String logoURL) {
+        this.logoURL = logoURL;
     }
 
     public String getName() {
