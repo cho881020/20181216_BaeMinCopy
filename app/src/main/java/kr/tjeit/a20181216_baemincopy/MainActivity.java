@@ -64,7 +64,15 @@ public class MainActivity extends BaseActivity {
 //                }
 
 //                두번째 방법. XML에 작성한 태그를 이용.
-                Toast.makeText(mContext, v.getTag().toString(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(mContext, v.getTag().toString(), Toast.LENGTH_SHORT).show();
+
+//                인텐트에 어떤 종류의 음식인지 첨부해서 레스토랑 목록화면 이동
+
+                Intent intent = new Intent(mContext, RestaurantListActivity.class);
+                intent.putExtra("음식종류", v.getTag().toString());
+                startActivity(intent);
+
+
 
             }
         };
