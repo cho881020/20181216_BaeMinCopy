@@ -29,4 +29,5 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
     implementation 'de.hdodenhof:circleimageview:2.2.0'
     implementation 'gun0912.ted:tedpermission:2.2.2'
+    compile 'com.naver.maps.open:naver-map-api:2.1.2@aar'
 }
