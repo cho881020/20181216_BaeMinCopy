@@ -3,6 +3,7 @@
     package="kr.tjeit.a20181216_baemincopy">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
