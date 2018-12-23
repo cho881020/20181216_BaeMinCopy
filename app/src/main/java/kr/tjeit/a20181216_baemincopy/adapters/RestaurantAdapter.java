@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -32,6 +33,17 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
         if (row == null) {
             row = inf.inflate(R.layout.restaurant_list_item, null);
         }
+
+        TextView nameTxt = row.findViewById(R.id.nameTxt);
+        TextView addressTxt = row.findViewById(R.id.addressTxt);
+        TextView openTimeTxt = row.findViewById(R.id.openTimeTxt);
+
+        Restaurant data = mList.get(position);
+
+        nameTxt.setText(data.getName());
+        addressTxt.setText(data.getAddress());
+        openTimeTxt.setText(data.getOpenTime());
+
 
         return row;
     }
