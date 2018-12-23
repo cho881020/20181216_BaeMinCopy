@@ -20,6 +20,7 @@
 
         <LinearLayout
             android:id="@+id/koreanFoodBtn"
+            android:tag="한식"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
@@ -40,6 +41,7 @@
 
         <LinearLayout
             android:id="@+id/bunsikBtn"
+            android:tag="분식"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
@@ -61,6 +63,7 @@
 
         <LinearLayout
             android:id="@+id/japanesFoodBtn"
+            android:tag="돈까스 / 회 / 일식"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
@@ -90,6 +93,8 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/chickenBtn"
+            android:tag="치킨"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
@@ -109,6 +114,8 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/pizzaBtn"
+            android:tag="피자"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
@@ -129,6 +136,8 @@
 
 
         <LinearLayout
+            android:id="@+id/chineseBtn"
+            android:tag="중국집"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
@@ -158,6 +167,8 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/jokbalBtn"
+            android:tag="족발 / 보쌈"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
@@ -177,6 +188,8 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/yasikBtn"
+            android:tag="야식"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
@@ -197,6 +210,8 @@
 
 
         <LinearLayout
+            android:id="@+id/stewBtn"
+            android:tag="찜 / 탕"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
