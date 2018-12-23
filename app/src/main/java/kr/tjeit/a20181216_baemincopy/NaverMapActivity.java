@@ -9,7 +9,7 @@ import com.nhn.android.maps.NMapView;
 public class NaverMapActivity extends NMapActivity {
 
     private NMapView mMapView;
-    private String CLIENT_ID = "임시로작성";
+    private String CLIENT_ID = "GtNKdR4yqAFn6qdL8uPY";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ public class NaverMapActivity extends NMapActivity {
         mMapView.requestFocus();
 
     }
+
 }
 
 

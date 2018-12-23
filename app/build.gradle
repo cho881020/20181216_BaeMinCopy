@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "kr.tjeit.a20181216_baemincopy"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -30,4 +30,5 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:2.2.0'
     implementation 'gun0912.ted:tedpermission:2.2.2'
     compile 'com.naver.maps.open:naver-map-api:2.1.2@aar'
+    implementation 'com.facebook.android:facebook-login:[4,5)'
 }

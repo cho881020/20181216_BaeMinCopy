@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">20181216_BaeMinCopy</string>
+    <string name="app_name">배민카피</string>
+    <string name="facebook_app_id">801884876824124</string>
+    <string name="fb_login_protocol_scheme">fb801884876824124</string>
+
 </resources>

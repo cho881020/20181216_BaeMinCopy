@@ -1,6 +1,9 @@
 package kr.tjeit.a20181216_baemincopy;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -27,6 +30,14 @@ public class RestaurantListActivity extends BaseActivity {
 
     @Override
     public void setupEvents() {
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(mContext, NaverMapActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
